@@ -65,8 +65,11 @@ export default function SignUp() {
           id="password"
           onChange={handleChange}
         />
-        <button disabled={loading} className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:placeholder-opacity-95 disabled:placeholder-opacity-80">
-          {loading ? 'Loading...': 'Sign up'}
+        <button
+          disabled={loading}
+          className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:placeholder-opacity-95 disabled:placeholder-opacity-80"
+        >
+          {loading ? "Loading..." : "Sign up"}
         </button>
       </form>
       <div className="flex gap-2 mt-5">
